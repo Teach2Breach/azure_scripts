@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#shout out to TGore
 import requests
 import json
 count = 0
@@ -46,4 +47,4 @@ print (f'[ + ] Total Number of tokens obtains: {str(count)}')
 print (f'[ + ] Tokens obtained for the following resources:')
 for k,v in access_tokens.items():
         print (f'   {k} [ * ] {v}')
-print (f'[ + ] FIN!')
+print (f'[ + ] All done, enjoy your tokens.')
