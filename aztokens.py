@@ -23,7 +23,6 @@ endpoints = [
         '822c8694-ad95-4735-9c55-256f7db2f9b4',
         'https://dev.azuresynapse.net',
         'https://database.windows.net',
-        'https://quantum.microsoft.com',
         'https://iothubs.azure.net',
 ]
 print (f'[ * ] Attempting to obtain resource tokens for {str(len(endpoints))} endpoints')
@@ -46,5 +45,5 @@ print (f'[ + ] Analytics:')
 print (f'[ + ] Total Number of tokens obtains: {str(count)}')
 print (f'[ + ] Tokens obtained for the following resources:')
 for k,v in access_tokens.items():
-        print (f'    [ * ] {v}')
+        print (f'   {k} [ * ] {v}')
 print (f'[ + ] FIN!')
